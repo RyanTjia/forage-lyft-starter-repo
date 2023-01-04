@@ -16,3 +16,12 @@ directory, but "test_car.py" is in the child directory (in this case, the folder
 access the root directory to then access the necessary file.
 
 Also, the "Deprecated" folder is removed, as it should no longer be needed
+
+# Change #3
+Now there are two files which are for the carrigan and octoprime tires. There is also
+the "tires.py" file which serves as the parent class of the previous two tires files.
+Furthermore, adjustments were made within the "car_factory.py" file to also use the new
+tires files. The "test_car.py" files still create the cars to test if there are any
+errors with this new addition of tires. In addition, there is a new unit case which test
+these two new tires individually instead of creating 20 new test cases in total when
+combining with the previous test cases.
